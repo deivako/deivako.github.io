@@ -1,10 +1,10 @@
-$(function() {
+$(document).ready(function() {
 	var message = {
 
 		message: [
 			'web development;', 
 			'good movie and popcorn;', 
-      'javascript,Bootstrap, nodejs...;',
+      		'Coding',
 			'you :D;'
 		],
 		counterS: 0,
@@ -43,4 +43,7 @@ $(function() {
 		}
 	};
 	message.init();
+ $("#email").click(function(){
+       $("#deivo").fadeToggle("slow");
+    });
 });

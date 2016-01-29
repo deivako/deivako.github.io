@@ -3,9 +3,7 @@ $(document).ready(function() {
 
 		message: [
 			'web development;', 
-			'good movie and popcorn;', 
-      		'Coding',
-			'you :D;'
+			'good movie and popcorn;'
 		],
 		counterS: 0,
 		counterL: 0,

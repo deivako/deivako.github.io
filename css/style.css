@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   font-family: 'Bree Serif', serif;
   color: white;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .wrapper {
@@ -22,16 +22,17 @@ body {
   margin-left:20px;
 }
 .wrapper h1 {
-  font-size: 50px;
+  font-size: 70px;
   margin-top: 0;
 }
 .wrapper h3 {
   margin-bottom: 0;
+  font-size: 60px;
 }
 .wrapper span {
   display: inline-block;
   text-align: left;
-  font-size: 26px;
+  font-size: 40px;
 }
 .wrapper img {
   width: 40px;
@@ -42,13 +43,15 @@ body {
   margin: 20px;
 }
 .wrapper i {
-  padding: 10px;
-  border: 2px solid white;
+  padding: 20px;
+  border: 5px solid white;
   border-radius: 50%;
+  
 }
 .wrapper .social {
   position: relative;
   margin-top: 50px;
+  
 }
 
 span.cursor {
@@ -72,7 +75,7 @@ span.cursor {
     text-align: center;
   }
   .wrapper .social i {
-    font-size: 22px;
+    font-size: 200px;
   }
   .wrapper .social a {
     margin: 5px;
